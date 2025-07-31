@@ -5,7 +5,7 @@ function Card() {
   return (
     <div className="user_card">
       <div className="left_column">
-        <img className="avatar" src={user.avatar} alt={user.fullName}></img>
+        <img className="avatar_card" src={user.avatar} alt={user.fullName}></img>
       </div>
       <div className="right_column">
         <p className="full_name">{user.fullName}</p>
