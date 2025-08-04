@@ -3,7 +3,7 @@ import "./styles.css";
 function Input({ name, type, placeholder, label }) {
   return (
     <div className="form_input_container">
-      <label className="form_label" for={`input_${name}`}>
+      <label className="form_label" htmlFor={`input_${name}`}>
         {label}
       </label>
       <input
