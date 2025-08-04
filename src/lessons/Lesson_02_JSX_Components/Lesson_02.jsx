@@ -1,5 +1,5 @@
 import "./styles.css";
-import Button from "../../components/Button/Button";
+import Button from "../../components/Button/Button.jsx";
 import getPlanteaterStatus, { animal, hello } from "./data.js";
 
 function Lesson_02() {
