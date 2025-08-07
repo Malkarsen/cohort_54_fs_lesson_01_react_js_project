@@ -6,10 +6,12 @@ import Lesson_04 from "./lessons/Lesson_04_useState_triggers/Lesson_04";
 // Homeworks
 import Homework_02 from "./homeworks/Homework_02_JSX_Components/Homework_02";
 import Homework_03 from "./homeworks/Homework_03_Props/Homework_03";
+import Homework_04 from "./homeworks/Homework_04_useState_triggers/Homework_04";
 
 // Consultations
 
 import "./App.css";
+import Lesson_05 from "./lessons/Lesson_05_TS_Project,_Map_jsx/Lesson_05";
 
 function App() {
   return (
@@ -17,11 +19,13 @@ function App() {
       {/*Lessons*/}
       {/* <Lesson_02 /> */}
       {/* <Lesson_03 /> */}
-      <Lesson_04 />
+      {/* <Lesson_04 /> */}
+      <Lesson_05 />
 
       {/*Homeworks*/}
       {/* <Homework_02 /> */}
       {/* <Homework_03 /> */}
+      {/* <Homework_04 /> */}
     </div>
   );
 }
